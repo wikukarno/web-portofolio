@@ -1,0 +1,58 @@
+// Detail Portofolio CSS
+//=======================
+.section-portofolio-gallery {
+  margin-bottom: 40px;
+  img {
+    border-radius: 8px;
+    max-height: 495px;
+  }
+  .thumbnail-image {
+    margin-bottom: 20px;
+    border: 2px solid transparent;
+    &:hover,
+    &.active {
+      border: 3px solid #0d6efd;
+    }
+  }
+}
+
+.section-detail-portofolio {
+  .portofolio-heading {
+    .edition {
+      background-color: #41c156 !important;
+      color: #fff;
+      width: 100px;
+      text-align: center;
+      border-radius: 4px;
+      font-weight: 400;
+    }
+    h1 {
+      font-family: "Merriweather Sans";
+      font-size: 36px;
+      font-weight: bold;
+      color: #000;
+    }
+    .category {
+      color: #8d8d8d;
+      font-size: 16px;
+    }
+  }
+}
+
+.portofolio-description {
+  h3 {
+    font-family: "Merriweather Sans";
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+  }
+  .description {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .description-tools {
+    img {
+      max-height: 70px;
+    }
+  }
+}

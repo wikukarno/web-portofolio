@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", serif;
+    background-color: #f5f5f5;
+    color: #4e4e4e;
+    transition: background 0.5s linear;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+// to-top
+.to-top {
+    background: #0d6efd;
+    position: fixed;
+    bottom: 16px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s;
+}
+
+.active {
+    bottom: 30px;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+// Modal Css
+.modal {
+    h3 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #000 !important;
+        font-family: "Merriweather Sans";
+    }
+    p {
+        color: #8d8d8d;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .line-mf {
+        width: 40px;
+        height: 5px;
+        background-color: #0078ff;
+        margin: auto;
+    }
+}
+
+// End Modal Css

@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #f5f5f5;
+    .navbar-brand {
+        img {
+            max-height: 40px;
+        }
+    }
+    .navbar-nav {
+        .active {
+            font-size: 18px;
+            font-weight: 500;
+            color: #363636 !important;
+        }
+        a {
+            font-size: 18px;
+            font-weight: normal;
+            color: #363636 !important;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.section-content-header {
+  h5 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  h1 {
+    font-family: "Merriweather Sans";
+    font-weight: bold;
+    font-size: 48px;
+    color: #0000be;
+    // color: #020277;
+    // color: #004cbe;
+  }
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #494949;
+  }
+  .btn-hire {
+    background-color: #0d6efd;
+    color: #fff !important;
+    &:hover {
+      background-color: #085cda;
+      color: #fff;
+    }
+  }
+}
+
+// ============================================= //
+// Details Css //
+// ============================================= //
+.section-breadcrumb-content {
+  a {
+    text-decoration: none;
+  }
+  li {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}

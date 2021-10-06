@@ -1,0 +1,47 @@
+.section-about-content {
+    margin-top: 120px;
+    h3 {
+        font-family: "Merriweather Sans";
+        font-size: 32px;
+        font-weight: 500;
+        color: #000;
+    }
+    .a-information {
+        color: #8d8d8d;
+        font-weight: normal;
+        font-size: 18px;
+    }
+    p {
+        color: #363636;
+        font-weight: normal;
+        font-size: 18px;
+    }
+}
+
+.section-education-content {
+    .figure {
+        h5 {
+            color: #000;
+            font-weight: 500;
+            font-family: "Merriweather Sans";
+            font-size: 20px;
+        }
+        p {
+            color: #363636;
+            font-weight: 400;
+            font-size: 16px;
+        }
+    }
+    .figure {
+        img {
+            max-height: 80px;
+        }
+    }
+}
+
+.line-mf {
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: auto;
+}

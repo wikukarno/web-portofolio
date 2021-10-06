@@ -1,0 +1,49 @@
+.section-services-content {
+  margin-top: 120px;
+  h3 {
+    font-family: "Merriweather Sans";
+    font-size: 32px;
+    font-weight: 500;
+    color: #000;
+  }
+  .a-information {
+    color: #8d8d8d;
+    font-weight: normal;
+    font-size: 18px;
+  }
+  .services-content {
+    margin-top: 50px;
+  }
+  h5 {
+    font-family: "Merriweather Sans";
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+  }
+  p {
+    color: #363636;
+    font-weight: normal;
+    font-size: 18px;
+  }
+  .card {
+    max-height: 300px !important;
+    min-height: 300px !important;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(95, 95, 95, 0.3);
+    margin-bottom: 20px;
+    .figure {
+      padding-top: 30px;
+      img {
+        max-height: 80px;
+      }
+    }
+  }
+}
+
+.line-mf {
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: auto;
+}

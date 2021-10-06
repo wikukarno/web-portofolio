@@ -1,0 +1,34 @@
+.section-footer {
+    background-color: #fff;
+    margin-top: 100px;
+    img {
+        max-height: 50px;
+    }
+    .description {
+        color: #363636;
+        font-size: 16px;
+    }
+    a {
+        color: #363636;
+        text-decoration: none;
+        font-size: 16px;
+        &:hover {
+            color: #0d6efd;
+        }
+    }
+    .social-media {
+        img {
+            max-height: 30px !important;
+        }
+    }
+    .f-description {
+        text-decoration: none;
+        color: #363636;
+        font-size: 16px;
+    }
+    a {
+        text-decoration: none;
+        color: #363636;
+        font-size: 16px;
+    }
+}
